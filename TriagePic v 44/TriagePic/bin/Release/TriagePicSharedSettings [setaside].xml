@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SchemaRevision>3</SchemaRevision>
+  <EventTypeText>DRILL</EventTypeText>
+  <EventRangeInt>1</EventRangeInt>
+  <StationPatientTrackingOfficerText>J. Brown</StationPatientTrackingOfficerText>
+  <StationTriagePhysicansOrRNsText>T. Green; L. Wood</StationTriagePhysicansOrRNsText>
+  <StationOtherStaffText>F. Sable</StationOtherStaffText>
+  <StationPhotographersText>F. Fox; T. Marie</StationPhotographersText>
+  <PatientNumberText>33469</PatientNumberText>
+  <OrgNameText>Suburban Hospital</OrgNameText>
+  <OrgAbbrOrShortNameText>Suburban</OrgAbbrOrShortNameText>
+  <OrgStreetAddress1Text>8600 Old Georgetown Road</OrgStreetAddress1Text>
+  <OrgStreetAddress2Text />
+  <OrgTownOrCityText>Bethesda</OrgTownOrCityText>
+  <OrgCountyText>Montgomery</OrgCountyText>
+  <Org2LetterStateText>MD</Org2LetterStateText>
+  <OrgZipcodeText>20814</OrgZipcodeText>
+  <OrgPhoneText>(301) 896-3118</OrgPhoneText>
+  <OrgFaxText />
+  <OrgEmailText>info@suburbanhospital.org</OrgEmailText>
+  <OrgWebSiteText>www.suburbanhospital.org</OrgWebSiteText>
+  <OrgNPI_Text>1205896446</OrgNPI_Text>
+  <OrgPatientID_PrefixText>911-</OrgPatientID_PrefixText>
+  <EmailFrom>
+    <string>nlmlhccebdisaster@gmail.com</string>
+    <string>Glenn_Pearson@nlm.nih.gov</string>
+  </EmailFrom>
+  <EmailServer>
+    <string>smtp.gmail.com</string>
+    <string>mailfwd.nih.gov</string>
+  </EmailServer>
+  <UseSSL_ForSMTP>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </UseSSL_ForSMTP>
+  <PortForSMTP>
+    <int>587</int>
+    <int>25</int>
+  </PortForSMTP>
+  <UseBasicAuthenticationForSMTP>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </UseBasicAuthenticationForSMTP>
+  <BasicAuthName>
+    <string>nlmlhccebdisaster</string>
+    <string />
+  </BasicAuthName>
+  <BasicAuthPassword>
+    <string>Disaster2$</string>
+    <string />
+  </BasicAuthPassword>
+  <FetchBeforeSendAuthentication>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+  </FetchBeforeSendAuthentication>
+  <EmailIncomingServer>
+    <string>smtp.gmail.com</string>
+    <string>mailfwd.nih.gov</string>
+  </EmailIncomingServer>
+  <UseSSL_ForIncoming>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </UseSSL_ForIncoming>
+  <PortForIncoming>
+    <int>995</int>
+    <int>110</int>
+  </PortForIncoming>
+  <EmailTo>Glenn_Pearson@nlm.nih.gov; nlmlhccebdisaster@mail.nih.gov</EmailTo>
+  <AnonymizedEmailTo>Glenn_Pearson@nlm.nih.gov</AnonymizedEmailTo>
+</Options>

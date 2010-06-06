@@ -1,0 +1,48 @@
+<EDXLDistribution xmlns="urn:oasis:names:tc:emergency:EDXL:DE:1.0">
+<distributionID>NPI 1205896446 2009-21-16T03:21:25Z</distributionID>
+<senderID>info@suburbanhospital.org</senderID>
+<dateTimeSent>2009-21-16T03:21:25Z</dateTimeSent>
+<distributionStatus>Test</distributionStatus>
+<distributionType>Report</distributionType>
+<combinedConfidentiality>UNCLASSIFIED AND NOT SENSITIVE</combinedConfidentiality>
+<keyword>
+  <valueListUrn>urn:oasis:names:tc:emergency:cap:1.1</valueListUrn>
+  <value>Health</value>
+  <value>Rescue</value>
+</keyword>
+<targetArea>
+  <circle>38.9992,-77.1024, 40.2</circle>
+</targetArea>
+<contentObject>
+  <contentDescription>LPF notification - disaster victim arrives at hospital triage station</contentDescription>
+  <xmlContent>
+    <embeddedXMLContent>
+      <lpfContent>
+        <version>1.2</version>
+        <login>
+          <username>NIH\gpearson</username>
+        </login>
+        <person>
+          <personId>911-33440</personId>
+          <eventName>hurrican - TEST or DEMO</eventName>
+          <organization>
+            <orgName>Suburban Hospital</orgName>
+            <orgId>1205896446</orgId>
+          </organization>
+          <lastName>Pearson</lastName>
+          <firstName>G</firstName>
+          <gender>M</gender>
+          <genderEnum>M, F, U, C</genderEnum>
+          <genderEnumDesc>Male; Female; Unknown; Complex(M/F)</genderEnumDesc>
+          <peds>N</peds>
+          <pedsEnum>Y,N</pedsEnum>
+          <pedsEnumDesc>Pediatric patient? Yes, No</pedsEnumDesc>
+          <triageCategory>Yellow</triageCategory>
+          <triageCategoryEnum>Green, Yellow, Red, Gray, Black</triageCategoryEnum>
+          <triageCategoryEnumDesc>Treat eventually if needed; Treat soon; Treat immediately; Cannot be saved; Deceased</triageCategoryEnumDesc>
+        </person>
+      </lpfContent>
+    </embeddedXMLContent>
+  </xmlContent>
+</contentObject>
+</EDXLDistribution>

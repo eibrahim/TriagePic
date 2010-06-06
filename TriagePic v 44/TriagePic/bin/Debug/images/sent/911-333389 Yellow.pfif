@@ -1,0 +1,52 @@
+<pfif:pfif xsi:schemaLocation="http://zesty.ca/pfif/1.1 http://zesty.ca/pfif/1.1/pfif-1.1.xsd">
+<pfif:person>
+  <pfif:person_record_id>BHEPP Mass Disaster ID/911-333389</pfif:person_record_id>
+  <pfif:entry_date>2009-55-22T03:55:05Z</pfif:entry_date>
+  <pfif:author_name>Suburban Hospital - Patient Tracking Officer: J. Brown</pfif:author_name>
+  <pfif:author_email>info@suburbanhospital.org</pfif:author_email>
+  <pfif:author_phone>(301) 896-3118</pfif:author_phone>
+  <pfif:source_name>Possibly Lost Person Finder web site URL goes here</pfif:source_name>
+  <pfif:source_date>2009-55-22T03:55:05Z</pfif:source_date>
+  <pfif:source_url>www.suburbanhospital.org</pfif:source_url>
+  <pfif:first_name>FIRST (ALIAS) M</pfif:first_name>
+  <pfif:last_name>LAST</pfif:last_name>
+  <pfif:photo_url>file:911-333389 Yellow.jpg</pfif:photo_url>
+  <pfif:other>
+    restrictions: 
+        IF RECEIVED AS EMAIL, DON'T REPLY TO THIS ADDRESS.
+        DISTRIBUTION RESTRICTED.
+        SEE ATTACHED DOCUMENT.
+    automated-pfif-author: NLM TriagePic Prototype
+    on computer: CEB-BEC
+    event: TEST or DEMO
+    description:
+      Nickname/Alias = Alias
+      Gender = Female
+      Pediatric = No
+      Picture = No
+      Why No Photo = Forgot to take; patient gone
+  </pfif:other>
+</pfif:person>
+<pfif:note>
+  <pfif:note_record_id>Note 1, BHEPP Mass Disaster ID/911-333389</pfif:note_record_id>
+  <pfif:entry_date>2009-55-22T03:55:05Z</pfif:entry_date>
+  <pfif:author_name>Suburban Hospital - Patient Tracking Officer: J. Brown</pfif:author_name>
+  <pfif:author_email>info@suburbanhospital.org</pfif:author_email>
+  <pfif:author_phone>(301) 896-3118</pfif:author_phone>
+  <pfif:source_date>2009-55-22T03:55:05Z</pfif:source_date>
+  <pfif:found>true</pfif:found>
+  <pfif:email_of_found_person>info@suburbanhospital.org</pfif:email_of_found_person>
+  <pfif:phone_of_found_person>(301) 896-3118</pfif:phone_of_found_person>
+  <pfif:last_known_location>
+    Disaster Triage Station, Suburban Hospital
+    8600 Old Georgetown Road
+    Bethesda, MD 20814
+  </pfif:last_known_location>
+  <pfif:text>
+    Current condition:
+      Sent to 'Yellow' treatment zone within hospital.
+    Email and phone numbers given for found person are those of Suburban Hospital for general inquiries.
+    See PFIF parent record for restrictions on distribution of information in this note.
+  </pfif:text>
+</pfif:note>
+</pfif:pfif>

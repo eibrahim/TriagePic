@@ -1,0 +1,48 @@
+<EDXLDistribution xmlns="urn:oasis:names:tc:emergency:EDXL:DE:1.0">
+<distributionID>NPI 1205896446 2009-20-02T07:20:43Z</distributionID>
+<senderID>info@suburbanhospital.org</senderID>
+<dateTimeSent>2009-20-02T07:20:43Z</dateTimeSent>
+<distributionStatus>Test</distributionStatus>
+<distributionType>Report</distributionType>
+<combinedConfidentiality>UNCLASSIFIED AND NOT SENSITIVE<combinedConfidentiality>
+<keyword>
+  <valueListUrn>urn:oasis:names:tc:emergency:cap:1.1</valueListUrn>
+  <value>Health</value>
+  <value>Rescue</value>
+</keyword>
+<targetArea>
+  <subdivision>US-MD</subdivision>
+  <subdivision>US-DC</subdivision>
+  <subdivision>US-VA</subdivision>
+  <subdivision>US-WV</subdivision>
+  <subdivision>US-DE</subdivision>
+  <subdivision>US-PA</subdivision>
+  <subdivision>US-NJ</subdivision>
+</targetArea>
+<contentObject>
+  <contentDescription>PTL add person notification</contentDescription>
+  <xmlContent>
+    <embeddedXMLContent>
+      <ptlContent>
+        <version>1.0</version>
+        <login>
+          <username>NIH\gpearson</username>
+        </login>
+        <person>
+          <personId>911-33433</personId>
+          <eventName>TEST or DEMO</eventName>
+          <organization>
+            <orgName>Suburban Hospital</orgName>
+            <orgId>1205896446</orgId>
+          </organization>
+          <lastName></lastName>
+          <firstName></firstName>
+          <gender>U</gender>
+          <peds>N</peds>
+          <triageCategory>Red</triageCategory>
+        </person>
+      </ptlContent>
+    </embeddedXMLContent>
+  </xmlContent>
+</contentObject>
+</EDXLDistribution>

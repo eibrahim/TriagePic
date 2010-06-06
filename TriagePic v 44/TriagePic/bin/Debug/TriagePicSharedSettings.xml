@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SchemaRevision>5</SchemaRevision>
+  <EventTypeText>TEST or DEMO</EventTypeText>
+  <EventRangeInt>1</EventRangeInt>
+  <StationPatientTrackingOfficerText>J. Brown</StationPatientTrackingOfficerText>
+  <StationTriagePhysicansOrRNsText>T. Green; L. Wood</StationTriagePhysicansOrRNsText>
+  <StationOtherStaffText>F. Sable</StationOtherStaffText>
+  <StationPhotographersText>F. Fox; T. Marie</StationPhotographersText>
+  <PatientNumberText>333397</PatientNumberText>
+  <PracticePatientNumberText>54</PracticePatientNumberText>
+  <OrgNameText>A Local Hospital</OrgNameText>
+  <OrgAbbrOrShortNameText>LocalHospital</OrgAbbrOrShortNameText>
+  <OrgStreetAddress1Text />
+  <OrgStreetAddress2Text />
+  <OrgTownOrCityText>Bethesda</OrgTownOrCityText>
+  <OrgCountyText>Montgomery</OrgCountyText>
+  <Org2LetterStateText>MD</Org2LetterStateText>
+  <OrgZipcodeText>20814</OrgZipcodeText>
+  <OrgPhoneText />
+  <OrgFaxText />
+  <OrgEmailText />
+  <OrgWebSiteText />
+  <OrgNPI_Text>1234567890</OrgNPI_Text>
+  <OrgPatientID_PrefixText>911-</OrgPatientID_PrefixText>
+  <EmailProfileSelected>
+    <string>Within NIH Campus</string>
+    <string>None</string>
+  </EmailProfileSelected>
+  <EmailProfileName>
+    <string>None</string>
+    <string>Within NIH Campus</string>
+    <string>Outside NIH, via GMail</string>
+    <string>Outside NIH, via Sprint</string>
+  </EmailProfileName>
+  <EmailFrom>
+    <string />
+    <string>Glenn_Pearson@nlm.nih.gov</string>
+    <string>Glenn_Pearson@nlm.nih.gov</string>
+    <string>Glenn_Pearson@nlm.nih.gov</string>
+  </EmailFrom>
+  <EmailServer>
+    <string />
+    <string>mailfwd.nih.gov</string>
+    <string>smtp.gmail.com</string>
+    <string>smtp.sprintpcs.com</string>
+  </EmailServer>
+  <EmailProfileComments>
+    <string>Leave 'From' and 'SMTP Server' empty.</string>
+    <string>Sending machine must be within campus firewall.  'From' must be known to NIH Active Directory.</string>
+    <string>Received mail will always be from 'nlmlhccebdiaster@gmail.com'.  'From' may have any content, is ignored.  For port, 587 was tested; reportedly 465 works too.  Suprisingly, port 25 also work with SSL checked.</string>
+    <string>Received mail will always be from 'demoaccountfedag225@sprintpcs.com'.  NIH Outlook client can include '... on behalf of [from]', where [from] may be the NIH Active Directory version of 'From' data.</string>
+  </EmailProfileComments>
+  <UseSSL_ForSMTP>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </UseSSL_ForSMTP>
+  <PortForSMTP>
+    <int>25</int>
+    <int>25</int>
+    <int>587</int>
+    <int>25</int>
+  </PortForSMTP>
+  <UseBasicAuthenticationForSMTP>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+  </UseBasicAuthenticationForSMTP>
+  <BasicAuthName>
+    <string />
+    <string />
+    <string>rhokTHEhouse-</string>
+    <string>demoaccountfedag225</string>
+  </BasicAuthName>
+  <BasicAuthPassword>
+    <string />
+    <string />
+    <string>Disaster2$</string>
+    <string>603F75E8</string>
+  </BasicAuthPassword>
+  <FetchBeforeSendAuthentication>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+  </FetchBeforeSendAuthentication>
+  <EmailIncomingServer>
+    <string />
+    <string />
+    <string />
+    <string />
+  </EmailIncomingServer>
+  <UseSSL_ForIncoming>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+  </UseSSL_ForIncoming>
+  <PortForIncoming>
+    <int>110</int>
+    <int>110</int>
+    <int>110</int>
+    <int>110</int>
+  </PortForIncoming>
+  <EmailTo>Pearson, Glenn &lt;Glenn_Pearson@nlm.nih.gov&gt;</EmailTo>
+  <EmailCc />
+</Options>

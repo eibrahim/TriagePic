@@ -1,0 +1,27 @@
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\bin\Debug\Filmstrip.dll
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\bin\Debug\Filmstrip.pdb
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\Filmstrip.FilmstripControl.bmp
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\Filmstrip.FilmstripControl.resources
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\Filmstrip.FormImageDescription.resources
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\FilmStrip.csproj.GenerateResource.Cache
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\Filmstrip.dll
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Sample filmstrip code\www.codeproject.com\KB\miscctrl\CustomFilmstripControl.aspx[ques display eq Print]\FilmStrip\obj\Debug\Filmstrip.pdb
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\bin\Debug\Filmstrip.dll
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\bin\Debug\Filmstrip.pdb
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\Filmstrip.FilmstripControl.bmp
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\Filmstrip.FilmstripControl.resources
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\Filmstrip.FormImageDescription.resources
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\FilmStrip.csproj.GenerateResource.Cache
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\Filmstrip.dll
+C:\Documents and Settings\gpearson\My Documents\Visual Studio 2005\Lost Person Finder\Filmstrip control, Glenn's revision\FilmStrip\obj\Debug\Filmstrip.pdb
+C:\LocalProjects\Filmstrip\FilmStrip\bin\Debug\Filmstrip.dll
+C:\LocalProjects\Filmstrip\FilmStrip\bin\Debug\Filmstrip.pdb
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\ResolveAssemblyReference.cache
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\Filmstrip.FilmstripControl.bmp
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\Filmstrip.FilmstripControl.resources
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\Filmstrip.FormImageDescription.resources
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\FilmStrip.csproj.GenerateResource.Cache
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\Filmstrip.dll
+C:\LocalProjects\Filmstrip\FilmStrip\obj\Debug\Filmstrip.pdb

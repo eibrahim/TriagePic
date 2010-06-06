@@ -1,0 +1,203 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECB4B838-E6E7-4B94-B711-BFC60EC93FB5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TriagePic</RootNamespace>
+    <AssemblyName>TriagePic</AssemblyName>
+    <ApplicationIcon>TriagePic.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DialogBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Filmstrip, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LumiSoft.Net, Version=2.0.3455.27126, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\LumiSoft.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="FormPracticeMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPracticeMode.Designer.cs">
+      <DependentUpon>FormPracticeMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmPeds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmPeds.Designer.cs">
+      <DependentUpon>FormConfirmPeds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmGender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmGender.Designer.cs">
+      <DependentUpon>FormConfirmGender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSentImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSentImages.Designer.cs">
+      <DependentUpon>FormSentImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWebCam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWebCam.Designer.cs">
+      <DependentUpon>FormWebCam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TriagePic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TriagePic.Designer.cs">
+      <DependentUpon>TriagePic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormPracticeMode.resx">
+      <DependentUpon>FormPracticeMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmPeds.resx">
+      <DependentUpon>FormConfirmPeds.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmGender.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormConfirmGender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSentImages.resx">
+      <DependentUpon>FormSentImages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWebCam.resx">
+      <DependentUpon>FormWebCam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TriagePic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriagePic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\gov.nih.nlm.hepldemo1\Basic.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\gov.nih.nlm.hepldemo1\index.wsdl" />
+    <None Include="Web References\gov.nih.nlm.hepldemo1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web References\gov.nih.nlm.hepldemo1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DialogBox.dll" />
+    <Content Include="Filmstrip.dll" />
+    <Content Include="TriagePic.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebcamLibrary\WebcamLibrary.csproj">
+      <Project>{0CC375D3-CF3C-41D3-A378-BF5AC6EF9698}</Project>
+      <Name>WebcamLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://hepldemo.nlm.nih.gov/index.php%3fwsdl&amp;stream=soap&amp;wbsmod=pls&amp;mod=ws&amp;act=reg">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\gov.nih.nlm.hepldemo1\</RelPath>
+      <UpdateFromURL>http://hepldemo.nlm.nih.gov/index.php%3fwsdl&amp;stream=soap&amp;wbsmod=pls&amp;mod=ws&amp;act=reg</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TriagePic_gov_nih_nlm_hepldemo1__Web_Services</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

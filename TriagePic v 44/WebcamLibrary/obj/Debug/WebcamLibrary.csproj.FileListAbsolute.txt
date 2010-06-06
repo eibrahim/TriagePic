@@ -1,0 +1,16 @@
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\bin\Debug\WebcamLibrary.dll
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\bin\Debug\WebcamLibrary.pdb
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\obj\Debug\DevEck.Devices.Video.ImageCaptureControl.resources
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\obj\Debug\WebcamLibrary.csproj.GenerateResource.Cache
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\obj\Debug\WebcamLibrary.dll
+C:\Users\emad\Desktop\WebcamLibrary\Webcam\WebcamLibrary\obj\Debug\WebcamLibrary.pdb
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\bin\Debug\WebcamLibrary.dll
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\bin\Debug\WebcamLibrary.pdb
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\obj\Debug\DevEck.Devices.Video.ImageCaptureControl.resources
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\obj\Debug\WebcamLibrary.csproj.GenerateResource.Cache
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\obj\Debug\WebcamLibrary.dll
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\obj\Debug\WebcamLibrary.pdb
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\bin\Debug\DirectShowLib-2005.dll
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\WebcamLibrary\bin\Debug\DirectShowLib-2005.pdb

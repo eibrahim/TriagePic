@@ -1,0 +1,147 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:Settings.cs" caret="0" fromTop="0" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:Constants.cs" caret="268" fromTop="8" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:Options.cs" caret="0" fromTop="0" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:Program.cs" caret="984" fromTop="22" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:TriagePic.cs" caret="30554" fromTop="13" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:app.config" caret="0" fromTop="0" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:DsUtils.cs" caret="38348" fromTop="0" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:Device.cs" caret="0" fromTop="0" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:Uuids.cs" caret="8841" fromTop="5" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:AXExtend.cs" caret="100690" fromTop="13" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.Designer.cs" caret="7073" fromTop="101" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCaptureControl.cs" caret="5996" fromTop="61" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/d:Properties/f:AssemblyInfo.cs" caret="1639" fromTop="18" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="2960" fromTop="14" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="12082" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="682" fromTop="0" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="2761" fromTop="11" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:DsUtils.cs" caret="38314" fromTop="0" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="3163" fromTop="24" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="3006" fromTop="22" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:Device.cs" caret="2353" fromTop="12" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="5528" fromTop="7" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="7813" fromTop="16" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:AXExtend.cs" caret="1211" fromTop="0" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:AXExtend.cs" caret="38457" fromTop="0" />
+      <File id="CE009BFA-5EF6-4153-B2A1-2FA79698A9AE/f:AXExtend.cs" caret="97151" fromTop="13" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="56" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="9" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="13" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="16" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="3636" fromTop="14" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="12839" fromTop="26" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="70" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="17" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="5" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="9386" fromTop="31" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="10167" fromTop="45" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="10964" fromTop="21" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="12500" fromTop="16" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCapture.cs" caret="11426" fromTop="4" />
+      <File id="0CC375D3-CF3C-41D3-A378-BF5AC6EF9698/d:Video/f:ImageCaptureControl.cs" caret="8205" fromTop="19" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/d:Properties/f:AssemblyInfo.cs" caret="1688" fromTop="18" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="3298" fromTop="13" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="3598" fromTop="20" />
+      <File id="ECB4B838-E6E7-4B94-B711-BFC60EC93FB5/f:FormWebCam.cs" caret="2209" fromTop="23" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="UpdateDeviceList" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="CounterCreationDataCollection" priority="0" />
+      <Item value="long" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="FormWebCam" priority="1" />
+      <Item value="if" priority="1" />
+      <Item value="form" priority="2" />
+      <Item value="new" priority="0" />
+      <Item value="Constants" priority="0" />
+      <Item value="imageCapture" priority="3" />
+      <Item value="_form" priority="3" />
+      <Item value="FormWindowState" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="e" priority="0" />
+      <Item value="CloseReason" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="dsDevice" priority="0" />
+      <Item value="_mediaCtrl" priority="0" />
+      <Item value="DsUtils" priority="0" />
+      <Item value="status" priority="0" />
+      <Item value="media" priority="0" />
+      <Item value="IntPtr" priority="1" />
+      <Item value="IBaseFilter" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="_capture" priority="0" />
+      <Item value="MessageBox" priority="0" />
+      <Item value="MessageBoxButtons" priority="0" />
+      <Item value="MessageBoxIcon" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TriagePic.FormWebCam">
+      <Item value="Show" priority="1" />
+      <Item value="BringToFront" priority="0" />
+      <Item value="WindowState" priority="0" />
+      <Item value="Hide" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TriagePic.Constants">
+      <Item value="source" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevEck.Devices.Video.ImageCaptureControl">
+      <Item value="Stop" priority="0" />
+      <Item value="Device" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.FormWindowState">
+      <Item value="Normal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FormClosingEventArgs">
+      <Item value="Cancel" priority="0" />
+      <Item value="CloseReason" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.CloseReason">
+      <Item value="UserClosing" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IntPtr">
+      <Item value="Zero" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevEck.Devices.Video.Device">
+      <Item value="DsDevice" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevEck.Devices.Video.ImageCapture">
+      <Item value="DisplayPropertyPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

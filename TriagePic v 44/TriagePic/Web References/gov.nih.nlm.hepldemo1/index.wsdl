@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://localhost/pls" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://localhost/pls" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://localhost/pls">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="Basic">
+        <xsd:all>
+          <xsd:element name="name" type="xsd:string" />
+          <xsd:element name="id" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="BasicArray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:Basic[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="shn_pls_get_incident_listRequest" />
+  <wsdl:message name="shn_pls_get_incident_listResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:message name="shn_pls_create_uuidRequest" />
+  <wsdl:message name="shn_pls_create_uuidResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:message name="shn_pls_create_uuid_batchRequest" />
+  <wsdl:message name="shn_pls_create_uuid_batchResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:message name="shn_pls_get_person_dataRequest" />
+  <wsdl:message name="shn_pls_get_person_dataResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:message name="shn_pls_basic_searchRequest" />
+  <wsdl:message name="shn_pls_basic_searchResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:message name="shn_pls_basic_search_allRequest" />
+  <wsdl:message name="shn_pls_basic_search_allResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:message name="shn_pls_testRequest" />
+  <wsdl:message name="shn_pls_testResponse">
+    <wsdl:part name="return" type="tns:BasicArray" />
+  </wsdl:message>
+  <wsdl:portType name=" Web ServicesPortType">
+    <wsdl:operation name="shn_pls_get_incident_list">
+      <documentation>
+				Returns an array of (incident_id, parent_id, name, shortname, date, type, latitude, longitude) related to all registered disasters/incidents sorted alphabetically with the default incident appearing first.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_get_incident_listRequest" />
+      <wsdl:output message="tns:shn_pls_get_incident_listResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_create_uuid">
+      <documentation>
+				Returns a new uuid which is linked to the provided incident.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_create_uuidRequest" />
+      <wsdl:output message="tns:shn_pls_create_uuidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_create_uuid_batch">
+      <documentation>
+				Returns a new uuid which is linked to the provided incident.
+				2nd parameter is the number of uuid's to create.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_create_uuid_batchRequest" />
+      <wsdl:output message="tns:shn_pls_create_uuid_batchResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_get_person_data">
+      <documentation>
+				Returns an array of information about a person.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_get_person_dataRequest" />
+      <wsdl:output message="tns:shn_pls_get_person_dataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_basic_search">
+      <documentation>
+				Returns a basic set of information about persons matching a search string assigned to a particular incident.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_basic_searchRequest" />
+      <wsdl:output message="tns:shn_pls_basic_searchResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_basic_search_all">
+      <documentation>
+				Returns a basic set of information about persons matching a search string across all incidents.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_basic_search_allRequest" />
+      <wsdl:output message="tns:shn_pls_basic_search_allResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_test">
+      <documentation>
+				Returns an array of the parameters.
+			</documentation>
+      <wsdl:input message="tns:shn_pls_testRequest" />
+      <wsdl:output message="tns:shn_pls_testResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name=" Web ServicesBinding" type="tns: Web ServicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="shn_pls_get_incident_list">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_get_incident_list" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_create_uuid">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_create_uuid" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_create_uuid_batch">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_create_uuid_batch" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_get_person_data">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_get_person_data" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_basic_search">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_basic_search" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_basic_search_all">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_basic_search_all" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shn_pls_test">
+      <soap:operation soapAction="http://localhost/pls#shn_pls_test" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost/pls" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name=" Web Services">
+    <wsdl:port name=" Web ServicesPort" binding="tns: Web ServicesBinding">
+      <soap:address location="http://hepldemo.nlm.nih.gov/index.php?stream=soap&amp;wbsmod=pls&amp;mod=ws&amp;act=reg" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

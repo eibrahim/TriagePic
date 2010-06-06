@@ -1,0 +1,6 @@
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\DirectShowLibV2-1\src\bin\Debug\DirectShowLib-2005.dll.config
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\DirectShowLibV2-1\src\bin\Debug\DirectShowLib-2005.dll
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\DirectShowLibV2-1\src\bin\Debug\DirectShowLib-2005.pdb
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\DirectShowLibV2-1\src\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\DirectShowLibV2-1\src\obj\Debug\DirectShowLib-2005.dll
+C:\Users\emad\Desktop\TriagePic v 44 - Distribution Package for RHOK 2010 (password='password')\TriagePic v 44\DirectShowLibV2-1\src\obj\Debug\DirectShowLib-2005.pdb
